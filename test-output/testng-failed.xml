@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestCases.TestCase1_ValidLoginwithAutoLocation">
+        <methods>
+          <include name="flushReports"/>
+          <include name="closeDriver"/>
+          <include name="testcase1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.TestCase1_ValidLoginwithAutoLocation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
